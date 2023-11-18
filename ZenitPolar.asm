@@ -46,8 +46,8 @@ jump:
 inc esi ; incrementa o ind1
 jmp while ; volta para o inicio do while
 
-fim:
 ; print da string criptografata
+fim:
 mov eax,4 ; serviço de impressão
 mov ebx,1 ; file descriptor da tela
 mov ecx,strec ; ponteiro da origem da string
