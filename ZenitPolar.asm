@@ -47,7 +47,6 @@ inc esi
 jmp while
 
 fim:
-; print da string criptografata
 mov eax,4 
 mov ebx,1 
 mov ecx,strec 
